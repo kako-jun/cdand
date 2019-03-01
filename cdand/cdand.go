@@ -15,7 +15,7 @@ type CdAnd struct {
 	// instance variables
 }
 
-func (cdAnd CdAnd) exists(path string) bool {
+func (cdand CdAnd) exists(path string) bool {
 	if _, err := os.Stat(path); err != nil {
 		return false
 	}
@@ -23,7 +23,7 @@ func (cdAnd CdAnd) exists(path string) bool {
 	return true
 }
 
-func (cdAnd CdAnd) execCommand(command string, args ...string) (err error) {
+func (cdand CdAnd) execCommand(command string, args ...string) (err error) {
 	// fmt.Println(command)
 	// fmt.Println(args)
 
@@ -55,22 +55,25 @@ func (cdAnd CdAnd) execCommand(command string, args ...string) (err error) {
 	return
 }
 
-func (cdAnd CdAnd) Start(dirPath string, command string, args []string) (err error) {
-	if !cdAnd.exists(dirPath) {
+func (cdand CdAnd) Start(dirPath string, command string, args []string) (err error) {
+	if !cdand.exists(dirPath) {
 		err = errors.New(dirPath + " not found.")
 		return
 	}
 
+	currentDirPath, _ := os.Getwd()
 	os.Chdir(dirPath)
 
-	err = cdAnd.execCommand(command, args...)
+	err = cdand.execCommand(command, args...)
+
+	os.Chdir(currentDirPath)
 	return
 }
 
 // Exec is ***
 func Exec(dirPath string, command string, args []string) (errReturn error) {
-	cdAnd := new(CdAnd)
-	if err := cdAnd.Start(dirPath, command, args); err != nil {
+	cdand := new(CdAnd)
+	if err := cdand.Start(dirPath, command, args); err != nil {
 		fmt.Println("error:", err)
 		errReturn = errors.New("error")
 		return
