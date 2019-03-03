@@ -5,7 +5,7 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/kako-jun/cdand-modules"
+	"github.com/kako-jun/cdand/cdand-modules"
 )
 
 func parseArgs() (dirPath string, command string, commandArgs []string, err error) {
