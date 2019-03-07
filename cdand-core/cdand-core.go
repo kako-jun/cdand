@@ -55,7 +55,7 @@ func (cdand CdAnd) execCommand(command string, args ...string) (err error) {
 	return
 }
 
-func (cdand CdAnd) Start(dirPath string, command string, args []string) (err error) {
+func (cdand CdAnd) start(dirPath string, command string, args ...string) (err error) {
 	if !cdand.exists(dirPath) {
 		err = errors.New(dirPath + " not found.")
 		return
@@ -71,9 +71,9 @@ func (cdand CdAnd) Start(dirPath string, command string, args []string) (err err
 }
 
 // Exec is ***
-func Exec(dirPath string, command string, args []string) (errReturn error) {
+func Exec(dirPath string, command string, args ...string) (errReturn error) {
 	cdand := new(CdAnd)
-	if err := cdand.Start(dirPath, command, args); err != nil {
+	if err := cdand.start(dirPath, command, args...); err != nil {
 		fmt.Println("error:", err)
 		errReturn = errors.New("error")
 		return

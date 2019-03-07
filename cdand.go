@@ -34,5 +34,5 @@ func main() {
 		return
 	}
 
-	cdand.Exec(dirPath, command, args)
+	cdand.Exec(dirPath, command, args...)
 }
