@@ -10,12 +10,13 @@ import (
 
 func parseArgs() (dirPath string, command string, commandArgs []string, err error) {
 	flag.Parse()
+	args := flag.Args()
+
 	if flag.NArg() < 2 {
 		err = errors.New("invalid argument")
 		return
 	}
 
-	args := flag.Args()
 	dirPath = args[0]
 	command = args[1]
 	commandArgs = args[2:]
