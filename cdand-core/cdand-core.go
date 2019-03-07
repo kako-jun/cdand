@@ -1,4 +1,4 @@
-// cdand is ***
+// Package cdand is ***
 package cdand
 
 import (
