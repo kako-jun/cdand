@@ -261,6 +261,8 @@ kako-jun
 
 ### :lemon: Lemonade stand
 
+寄付を頂けたら、猫エサでも買おうと思います
+
 下のリンクから、Amazonギフト券（Eメールタイプ）を送ってください
 
 「受取人」欄には `kako.hydrajin@gmail.com` と入力してください
