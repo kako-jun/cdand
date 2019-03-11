@@ -1,4 +1,4 @@
-[English](https://github.com/kako-jun/cdand/blob/master/README.md)
+[English](https://github.com/kako-jun/cdand)
 
 # :file_folder: cdand
 
@@ -67,13 +67,13 @@ $ cd ../..
 
 ### Download binaries
 
-- Windows: [cdand.zip](https://github.com/kako-jun/cdand/tree/master/bin/windows/cdand.zip)
-- macOS: [cdand.dmg](https://github.com/kako-jun/cdand/tree/master/bin/mac/cdand.dmg)
+- Windows: [cdand.zip](https://github.com/kako-jun/cdand/raw/master/bin/windows/cdand.zip)
+- macOS: [cdand.dmg](https://github.com/kako-jun/cdand/raw/master/bin/mac/cdand.dmg)
 - Linux ( `chmod u+x cdand` required)
 
-    - x64: [cdand_amd64.tar.gz](https://github.com/kako-jun/cdand/tree/master/bin/linux/cdand_amd64.tar.gz)
-    - ARM: [cdand_arm64.tar.gz](https://github.com/kako-jun/cdand/tree/master/bin/linux/cdand_arm64.tar.gz)
-    - Raspberry Pi: [cdand_armv7l.tar.gz](https://github.com/kako-jun/cdand/tree/master/bin/linux/cdand_armv7l.tar.gz)
+    - x64: [cdand_amd64.tar.gz](https://github.com/kako-jun/cdand/raw/master/bin/linux/cdand_amd64.tar.gz)
+    - ARM: [cdand_arm64.tar.gz](https://github.com/kako-jun/cdand/raw/master/bin/linux/cdand_arm64.tar.gz)
+    - Raspberry Pi: [cdand_armv7l.tar.gz](https://github.com/kako-jun/cdand/raw/master/bin/linux/cdand_armv7l.tar.gz)
 
 ### go get
 
@@ -114,7 +114,7 @@ $ cdand your/node/project yarn
 ```
 
 　
- 
+
 つまり、実行ディレクトリを変えるオプションを、コマンドごとに覚える必要がなくなります
 
 カレントディレクトリ以外で実行するオプションとして、
@@ -149,7 +149,7 @@ $ cdand .. git pull
 親方向に使っても便利
 
 　
- 
+
 ##### e.g. おまけ
 
 `cdand` 自身を入れ子にして呼べます
@@ -161,7 +161,7 @@ $ cdand subdir cdand .. ls
 特にメリットはありませんが、可能です
 
 　
- 
+
 #### Unsupported
 
 ##### 端末の文字色変更の効果は失われる
@@ -265,7 +265,7 @@ kako-jun
 
 「受取人」欄には `kako.hydrajin@gmail.com` と入力してください
 
-[:hearts: Donate](https://www.amazon.co.jp/Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-1_JP_Email-Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-E%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%97-Amazon%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF/dp/B004N3APGO/)
+　**[:hearts: Donate](https://www.amazon.co.jp/Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-1_JP_Email-Amazon%E3%82%AE%E3%83%95%E3%83%88%E5%88%B8-E%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%97-Amazon%E3%83%99%E3%83%BC%E3%82%B7%E3%83%83%E3%82%AF/dp/B004N3APGO/)**
 
 - 「メッセージ」欄を使って、感想を伝えることもできます
 - 送り主が誰かは分かりません
