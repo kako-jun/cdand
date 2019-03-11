@@ -4,13 +4,27 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"os"
 
 	"github.com/kako-jun/cdand/cdand-core"
 )
 
+var Version string = "1.0.0"
+
 func parseArgs() (dirPath string, command string, commandArgs []string, err error) {
+	var (
+		versionFlag bool
+	)
+
+	flag.BoolVar(&versionFlag, "version", false, "print version number")
+
 	flag.Parse()
 	args := flag.Args()
+
+	if versionFlag {
+		fmt.Println(Version)
+		os.Exit(0)
+	}
 
 	if flag.NArg() < 2 {
 		err = errors.New("invalid argument")
