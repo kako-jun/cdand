@@ -170,11 +170,9 @@ e.g. `ls -G`
 
 ##### For incomplete commands, you may get unexpected results.
 
-`vim` can launch, but not shown in terminal.
-
-`less` can launch, but cannnot paging.
-
-The stdout from interactive command is shown at the same time.
+- `vim` can launch, but not shown in terminal.
+- `less` can launch, but cannnot paging.
+- The stdout from interactive command is shown at the same time.
 
 ##### The target of pipe and redirect is `cdand` itself.
 
