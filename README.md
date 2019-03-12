@@ -6,9 +6,9 @@
 
 `cdand` is a simple CLI command.
 
-It can launch any commands(e.g. `git`, `yarn`) in your target directory without `cd`.
+It can launch every commands(e.g. `git`, `yarn`) in your target directory without `cd`.
 
-It's written in GOlang, so it will work on many operating systems.
+It's written in Go, so it will work on many operating systems.
 
 　
 
@@ -99,7 +99,7 @@ drwxr-xr-x. 10 kako-jun kako-jun 4096  Apr  2 04:20 ../
 
 　
 
-"Why is `cdand` useful?" Here are the samples.
+"Why is `cdand` useful?" Here are the examples.
 
 #### Examples
 
@@ -117,18 +117,18 @@ $ cdand your/node/project yarn
 
 　
 
-In other words, you don't need to care the difference between options of each command.
+The point is, you don't need to care the difference between options of each command.
 
 e.g.
 
 - `-C` option of `git`
-- `-prefix`, `-cwd` option of `node`
+- `-prefix`, `-cwd` options of `node`
 
 They are hard to remember, aren't they?
 
 　
 
-How is following?
+How is the following?
 
 ```sh
 $ (cd subdir/subsubdir; ls)
@@ -140,13 +140,13 @@ It's a cool way for who likes typing many brackets.
 
 After you typed `cd`, if you saw a troublesome future, let's append `and`.
 
-After that, use TAB key to auto complete the target directory name.
+After that, use TAB key to autocomplete the target directory name.
 
 ```sh
 $ cdand .. git pull
 ```
 
-It's also useful to keep indoors(subdirectory).
+It's also helpful to keep indoors(subdirectory).
 
 　
 
@@ -155,7 +155,7 @@ It's also useful to keep indoors(subdirectory).
 `cdand` can be called recursively.
 
 ```sh
-$ cdand subdir cdand .. ls
+$ cdand subdir cdand .. cdand subdir cdand .. ls
 ```
 
 Ummmm...are there any merits? (Probably nothing.)
@@ -214,7 +214,7 @@ $ cdand subdir cat my_secrets.txt > my_will.txt
 
 　
 
-If you want to create it in `subdir`, you need to create a script as below.
+If you want to get it in `subdir`, you have to create a script as below.
 
 ```sh
 cat my_secrets.txt > my_will.txt

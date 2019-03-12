@@ -155,7 +155,7 @@ $ cdand .. git pull
 `cdand` 自身を入れ子にして呼べます
 
 ```sh
-$ cdand subdir cdand .. ls
+$ cdand subdir cdand .. cdand subdir cdand .. ls
 ```
 
 特にメリットはありませんが、可能です
