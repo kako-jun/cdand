@@ -260,6 +260,8 @@ kako-jun
 
 ### :lemon: Lemonade stand
 
+Your donation turns into my cat's food.
+
 Please open the following link, and enter `kako.hydrajin@gmail.com` into 'To' box.
 
 　**[:hearts: Donate](https://www.amazon.com/Amazon-Amazon-com-eGift-Cards/dp/BT00DC6QU4)**
