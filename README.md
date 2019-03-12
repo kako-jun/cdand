@@ -143,7 +143,7 @@ After you typed `cd`, if you saw a troublesome future, let's append `and`.
 After that, use TAB key to autocomplete the target directory name.
 
 ```sh
-$ cdand .. git pull
+$ cdand ../sister_project npm install
 ```
 
 It's also helpful to keep indoors(subdirectory).

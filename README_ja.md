@@ -143,7 +143,7 @@ $ (cd subdir/subsubdir; ls)
 その後、ディレクトリ名を打つ時には `cd` と同じくTABでの補完が効くため、違和感なく高速に打てます
 
 ```sh
-$ cdand .. git pull
+$ cdand ../sister_project npm install
 ```
 
 親方向に使っても便利
