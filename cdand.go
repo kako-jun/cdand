@@ -9,6 +9,7 @@ import (
 	"github.com/kako-jun/cdand/cdand-core"
 )
 
+// app version
 var Version string = "1.0.0"
 
 func parseArgs() (dirPath string, command string, commandArgs []string, err error) {
