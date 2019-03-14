@@ -69,13 +69,13 @@ By adding `cdand` to PATH, you can say good-bye to `cd ../..`.
 
 ### Download binaries
 
-- Windows: [cdand.zip](https://github.com/kako-jun/cdand/raw/master/bin/windows/cdand.zip)
-- macOS: [cdand.dmg](https://github.com/kako-jun/cdand/raw/master/bin/mac/cdand.dmg)
+- Windows: [cdand_win.zip](https://github.com/kako-jun/cdand/releases/latest)
+- macOS: [cdand_mac.dmg](https://github.com/kako-jun/cdand/releases/latest)
 - Linux ( `chmod u+x cdand` required)
 
-    - x64: [cdand_amd64.tar.gz](https://github.com/kako-jun/cdand/raw/master/bin/linux/cdand_amd64.tar.gz)
-    - ARM: [cdand_arm64.tar.gz](https://github.com/kako-jun/cdand/raw/master/bin/linux/cdand_arm64.tar.gz)
-    - Raspberry Pi: [cdand_armv7l.tar.gz](https://github.com/kako-jun/cdand/raw/master/bin/linux/cdand_armv7l.tar.gz)
+    - x64: [cdand_linux_amd64.tar.gz](https://github.com/kako-jun/cdand/releases/latest)
+    - ARM: [cdand_linux_arm64.tar.gz](https://github.com/kako-jun/cdand/releases/latest)
+    - Raspberry Pi: [cdand_linux_armv7l.tar.gz](https://github.com/kako-jun/cdand/releases/latest)
 
 ### go get
 
