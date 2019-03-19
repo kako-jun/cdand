@@ -264,7 +264,7 @@ Your donation turns into my cat's food.
 
 Please open the following link, and enter `kako.hydrajin@gmail.com` into 'To' box.
 
-　**[:hearts: Donate](https://www.amazon.com/Amazon-Amazon-com-eGift-Cards/dp/BT00DC6QU4)**
+　**[:hearts: Donate](https://www.amazon.com/gp/product/B004LLIKVU/ref=as_li_tl?ie=UTF8&tag=llll-ll-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B004LLIKVU&linkId=40379992af00bad986f2d38a4f0cf745)**
 
 - Tell me your impressions in 'Message' box.
 - The sender is hidden.
